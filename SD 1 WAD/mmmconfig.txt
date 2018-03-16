@@ -1,0 +1,6 @@
+StartupPath=/wad
+
+AutoLoadIOS=236
+
+FatDevice=sd
+

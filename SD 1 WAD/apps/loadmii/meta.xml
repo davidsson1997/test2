@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <app version="1">
+    <name>loadMii</name>
+    <coder>The Lemon Man</coder>
+    <version>0.3</version>
+    <release_date>20090119HHMMSS</release_date>
+    <short_description>load !t</short_description>
+    <long_description>A small n' loader coded by The Lemon man
+	I developed all with the help of best people on this world
+	Thanks luccax (for the error hunting), wiipower (for the idea),
+	crediar (for base address hint), wiihelp chan for the help
+	and various lol.
+	Contact me on www.nextrl.it or on #wiihelp</long_description>
+  </app>

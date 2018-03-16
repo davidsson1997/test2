@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="0.3">
+	<name>GC Backup Launcher</name>
+	<version>0.2</version>
+	<release_date>200903230001</release_date>
+	<coder>WiiGator</coder>
+	<short_description>Play GC Backups without Modchip on Wii</short_description>
+	<long_description>Play your GC games with the GC Backup Launcher. The MIOS need to be patched and a cIOS/IOS249 with backup support is required! USE AT YOUR OWN RISK! The software is free of charge and the source code is included in the package.</long_description>
+</app>

@@ -1,0 +1,74 @@
+sysCheck v1.6.2 par Erik Spyder
+
+
+Homebrew effectuant plusieurs vérifications sur les IOS et cIOS installés:
+	- IOS Stub;
+	- Fake signature (aka Trucha Bug);
+	- ES_DiVerify (aka ES_Identify);
+	- Flash Access;
+	- NAND Access;
+	- Boot2 Access;
+	- USB 2.0.
+
+sysCheck génère un rapport à la racine de la carte SD (sd:/sysCheck.csv).
+
+
+
+
+
+Merci à mdbrim, ckinrun, Arikado et SteelSlasher du forum de WiiBrew (http://forum.wiibrew.org).
+
+
+
+L'auteur ne peut être tenu responsable pour tout dommage que sysCheck pourrait causer! 
+
+------------------
+
+Changements:
+
+Version 1.6.2
+    * Détecter automatiquement la langue (support du français et de l'anglais seulement).
+    * Améliorer la détection des 'IOS Stubs';
+    * Application recompilée avec la dernière version de DevkitPro;
+    * Ménage du code.
+
+Version 1.6.1
+    * Correctifs pour BootMii installé en IOS;
+    * Améliorer la détection du 'USB 2.0 IOS Tree' pour les IOS d'Hermes.
+
+Version 1.6
+    * Améliorer la détection des 'IOS Stubs';
+    * Améliorer la détection de la 'Fake signature' (aka Trucha Bug);
+    * Vérification de la 'NAND Access';
+    * Afficher la version du processeur graphique 'Hollywood';
+    * Afficher l'identifiant de la console;
+    * Afficher la version du Boot2.
+
+Version 1.5
+    * Corriger le problème avec l'IOS202;
+    * Améliorer la détection des 'IOS Stubs';
+    * Corriger la gestion des erreurs;
+    * La 'Wii Light' s'allume lors de la génération du rapport;
+    * Ménage du code.
+
+Version 1.4
+    * Vérifier le 'USB 2.0 IOS Tree';
+    * Afficher la date courante dans le rapport;
+    * Application recompilée avec la dernière version de DevkitPro;
+    * Ménage du code.
+
+Version 1.3 (inédite)
+    * Détecter la région de la console;
+    * Corriger la gestion des erreurs.
+
+Version 1.2 (inédite)
+    * Vérifier le 'Flash Access';
+    * Vérifier le 'Boot2 Access'.
+
+Version 1.1
+    * Corriger la détection des 'IOS Stubs';
+    * Corriger l'affichage du numéro de révision de l'IOS sur rechargement;
+    * Ménage du code.
+
+Version 1.0
+    * Sortie initiale.

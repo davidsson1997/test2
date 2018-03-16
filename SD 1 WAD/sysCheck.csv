@@ -1,0 +1,23 @@
+sysCheck v1.6.2 by Erik Spyder
+
+Region: PAL
+The system menu v450 is running under IOS60 (rev 54321)
+Hollywood v0x11
+Console ID: 73267196
+Boot2 v4
+Found 30 titles
+Found 8 IOS on this console
+No IOS Stub on this console
+
+IOS (revision),IOS Stub,Trucha Bug,ES Identify,Flash Access,NAND Access,Boot2 Access,USB 2.0
+IOS9 (rev 516),No,Enabled,Enabled,Enabled,Enabled,Disabled,Disabled
+IOS13 (rev 10),No,Enabled,Enabled,Enabled,Enabled,Disabled,Disabled
+IOS15 (rev 257),No,Enabled,Enabled,Enabled,Enabled,Disabled,Disabled
+IOS16 (rev 54321),No,Enabled,Enabled,Enabled,Enabled,Disabled,Disabled
+IOS31 (rev 3092),No,Disabled,Disabled,Disabled,Disabled,Disabled,Disabled
+IOS33 (rev 1040),No,Enabled,Enabled,Enabled,Enabled,Disabled,Disabled
+IOS36 (rev 54321),No,Enabled,Enabled,Disabled,Enabled,Disabled,Disabled
+IOS60 (rev 54321),No,Enabled,Disabled,Disabled,Disabled,Disabled,Disabled
+
+
+Report generated on 2009/01/01

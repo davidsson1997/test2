@@ -1,0 +1,74 @@
+sysCheck v1.6.2 by Erik Spyder
+
+
+Homebrew application which does several checks on installed IOS and custom IOS:
+	- IOS Stub;
+	- Fake signature (aka Trucha Bug);
+	- ES_DiVerify (aka ES_Identify);
+	- Flash Access;
+	- NAND Access;
+	- Boot2 Access;
+	- USB 2.0.
+
+sysCheck generates a report on the root of the SD card (sd:/sysCheck.csv).
+
+
+
+
+
+Thanks to mdbrim, ckinrun, Arikado and SteelSlasher from WiiBrew Forums (http://forum.wiibrew.org)
+
+
+
+The author can not be held responsible for any damage sysCheck might cause!
+
+------------------
+
+Changelog:
+
+Version 1.6.2
+    * Automatically detect the language settings (supports english and french only);
+    * Improve IOS stubs detection;
+    * Recompiled with the latest version of DevkitPro;
+    * Code cleanup.
+
+Version 1.6.1
+    * Fix BootMii as IOS issue;
+    * Improve USB 2.0 detection for Hermes' IOS.
+
+Version 1.6
+    * Improve IOS Stubs detection;
+    * Improve Fake Signature check;
+    * Check for NAND Access;
+    * Display Hollywood GPU version;
+    * Display Console ID;
+    * Display Boot2 version.
+
+Version 1.5
+    * Fix IOS202 issue;
+    * Improve IOS stubs detection;
+    * Error handling corrections;
+    * Wii Light is turn on when generating the CSV report;
+    * Code cleanup.
+
+Version 1.4
+    * Check for USB 2.0 IOS Tree;
+    * Display the current date and time in the report;
+    * Recompiled with the latest version of DevkitPro;
+    * Code cleanup.
+
+Version 1.3 (unreleased)
+    * Detect the console region;
+    * Error handling corrections.
+
+Version 1.2 (unreleased)
+    * Check for Flash Access;
+    * Check for Boot2 Access.
+
+Version 1.1
+    * Fix IOS stubs detection;
+    * Fix IOS revision number displayed on reload;
+    * Code cleanup.
+
+Version 1.0
+    * Initial public release

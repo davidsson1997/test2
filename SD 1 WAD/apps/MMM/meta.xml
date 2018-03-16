@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app>
+	<name> Multi-Mod Manager [MMM]</name>
+	<coder>WiiWu</coder>
+	<version>v13.2</version>
+	<release_date>20100513001302</release_date>
+<short_description> A collection of useful tools</short_description>
+<long_description>
+- Nice 1 glance view of all IOS to manage/dop
+- Fast 1 button install of all WADs in a folder
+- Launch your homebrew apps from SD 
+- Launch Priiloader or manage its hacks
+- Express 1-click Install and Patch IOS36
+- View Wii System Information
+- Flexible IOS reload via easy selection screen
+- Fast D-PAD navigation and shortcut buttons
+- Easy to use menu interface
+- No forced loading of IOS
+</long_description>
+</app>

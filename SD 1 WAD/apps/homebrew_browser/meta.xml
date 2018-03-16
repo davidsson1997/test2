@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+	<name>Homebrew Browser</name>
+	<coder>teknecal</coder>
+	<version>0.3.8</version>
+	<release_date>20100210000</release_date>
+	<short_description>Browse homebrew apps</short_description>
+	<long_description>The Homebrew Browser allows you to download the latest homebrew applications and games all through your Wii. You don't need to take your SD card out. You don't even need a computer! You can also delete homebrew you no longer want.
+
+No more dead links, no more extracting files, no more finding out that the homebrew application doesn't include an icon.png and meta.xml in the zip file! 
+
+Icons:
+Green Tick - You have the latest version of that homebrew application installed.
+Yellow Question Mark - You might not have the latest version of that homebrew application installed.
+
+Controls:
+A Button = Click Button
+B Button = Cancel Download or Extracting
+Hold B button - Move the Wiimote up and down to scroll through the list quickly
+D Pad Left/Right = Change category
+D Pad Up/Down = Scroll up and down the list slowly
+Minus/Plus Button = Delete/Remove/Add application to download/delete queue
+Home Button = Menu
+Hold Home Button down = Return to loader
+1 Button = Work offline
+2 Button = Revert to CodeMii repository
+
+Author:
+teknecal (teknecal@gmail.com) - www.codemii.com
+Graphics by DayDreamOz (www.spriteattack.com)
+
+History:
+21 February 2010 (v0.3.8)
+- Speed improvement when parsing homebrew list
+- Added .ogg music support
+- Added ability to disable mounting USB devices
+- Added timeout for Homebrew List download
+- Fixed bug when updating apps or HBB the meta.xml file was corrupted
+- Fixed bug when reverting to HBB repo it would sometimes fails
+- Fixed bug when updating installed apps didn't work when installed apps are hidden
+
+10 January 2010 (v0.3.7)
+- Compiled with DevKitPPC r19, libogc 1.8.1 and libfat 1.0.6
+- Allowed ratings and download count in repos
+- Expanded the size of the HBB updated applications display when starting up
+- Added homebrew sorter support (HBB will check for boot.dol.bak and boot.elf.bak files)
+- Disabled write test as some cards failed it
+- Fixed bug that crashed HBB at startup when settings had Use SD but no SD was inserted
+- Fixed bug that would freeze or crash HBB when accessing a repo
+- Fixed bug when GC controller was plugged in, it might go straight into the menu and then exit
+
+29 September 2009 (v0.3.6)
+- Fixed scrolling list issue
+- Added ability to not delete folders and not extract files if they exist
+- Added ability to select starting category and sorting method
+- Re-added mp3 support (add loop.mp3 and it will play it instead of loop.mod)
+- Improved scrolling of the list at start up
+
+Credits:
+LowLines for the Homebrew Browser v0.2.x graphics including logo, HBC icon and all other graphics
+joedj - ftpii source for network read and write
+NoNameNo &amp; Redshare - GRRLIB (3.0)
+Tantric - Unzip library
+All the Wii homebrew developers and icon artists
+All the people who tested the HBB revisions
+Team Twiizers, #wiidev &amp; #wiihelp
+
+Misc:
+Want to be notified when applications are updated?
+Add hbb@codemii.com to your Wii address book
+For more information about HBB and developments visit: www.codemii.com
+
+Visit the homebrew developers on IRC at irc.efnet.org at #wiidev
+Need help with running homebrew on your Wii? Visit #wiihelp</long_description>
+</app>

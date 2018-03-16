@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="0.3">
+	<name>MIOS Patcher</name>
+	<version>0.2</version>
+	<release_date>200903230001</release_date>
+	<coder>WiiGator</coder>
+	<short_description>GC Homebrew with DVD-R support</short_description>
+	<long_description>Installs a patched version of MIOS (Wii GC mode), which will support loading of homebrew and include DVD-R support. USE AT YOUR OWN RISK! The software is free of charge and the source code is included in the package.</long_description>
+</app>

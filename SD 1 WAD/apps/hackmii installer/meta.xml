@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+	<name>Hackmii Installer</name>
+	<short_description>Installs HBC, DVDx, Bootmii</short_description>
+</app>

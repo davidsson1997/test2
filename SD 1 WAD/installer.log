@@ -1,0 +1,148 @@
+HackMii v0.6 installer starting up
+PVR = 00087200
+running under IOS 36 rev 0xd431
+52 titles are installed
+Found IOS 35: revision: 0x410.
+Found IOS 34: revision: 0x40f.
+Found IOS 33: revision: 0x410.
+Found IOS 28: revision: 0x508.
+Found IOS 22: revision: 0x304.
+Found IOS 21: revision: 0x202.
+Found IOS 20: revision: 0xc.
+Found IOS 15: revision: 0x101.
+Found IOS 14: revision: 0x101.
+Found IOS 13: revision: 0xa.
+Found IOS 12: revision: 0x6.
+Found IOS 11: revision: 0xa.
+Found IOS 55: revision: 0x151e.
+Found IOS 53: revision: 0x151e.
+Found IOS 38: revision: 0xf1b.
+Found IOS 250: revision: 0xffff*
+Found IOS 249: revision: 0x11*
+Found IOS 223: revision: 0x4*
+Found IOS 222: revision: 0x4*
+Found IOS 202: revision: 0xffff*
+Found IOS 70: revision: 0xd431*
+Found IOS 60: revision: 0xd431*
+Found IOS 50: revision: 0xd431*
+Found IOS 36: revision: 0xd431*
+Found IOS 30: revision: 0xd431*
+Found IOS 16: revision: 0xd431*
+Found IOS 236: revision: 0xd431*
+Found IOS 9: revision: 0x204.
+Found IOS 0: revision: 0x0*
+Found IOS 80: revision: 0xd431*
+Found IOS 17: revision: 0x206.
+Found IOS 31: revision: 0xc14.
+Found IOS 2: revision: 0x1c2.
+IOS versions: Installer: 35, HBC: 35, DVDX: 35
+launching IOS for the installer...starting preparationsNinty forgot to write spare data for page 191
+Ninty forgot to write spare data for page 447
+parsing last generation bootmap
+found valid boot2 blockmap at block 1 (pos 0x627c0), submap 0, generation 4
+found valid boot2 blockmap at block 3 (pos 0xa47c0), submap 0, generation 7
+found valid boot2 blockmap at block 5 (pos 0xe67c0), submap 0, generation 5
+parse_blocks: found 3 valid blockmaps
+found 3 valid blockmaps
+using generation 7
+boot2 blocks: 02 03 04 05 06
+boot2bin @3,0 (blocks=2,3 - bootmii=1)
+bootmii@2,3
+boot2 blocks: 06 05 04 03 02
+boot2bin @3,1 (blocks=6,5 - bootmii=0)
+bootmii detected, parsing previous generation bootmap
+found valid boot2 blockmap at block 1 (pos 0x627c0), submap 0, generation 4
+found valid boot2 blockmap at block 3 (pos 0xa47c0), submap 0, generation 7
+found valid boot2 blockmap at block 5 (pos 0xe67c0), submap 0, generation 5
+parse_blocks: found 3 valid blockmaps
+found 3 valid blockmaps
+using generation 5
+boot2 blocks: 00 01 02 03 04 05 06
+boot2bin @5,0 (blocks=0,1 - bootmii=0)
+boot2 blocks: 06 05 04 03 02 01 00
+boot2bin @5,1 (blocks=6,5 - bootmii=0)
+boot2 block layout: 2 2 1 1 1 0 0
+Assembling boot2 in RAM
+copyright size = 34
+copyright text = 'Copyright 2008,2009 Team Twiizers.'
+tmd ends at 0x80295dac, data starts at 0x80295de0
+bootmii version  = '1.1'
+Ok for boot2 install
+preparations done![33;1mThe test results are in:
+
+[37;1m  Using IOS versions:      Installer: 35, HBC: 35, DVDX: 35
+
+  The Homebrew Channel:    [32;1mCan be installed[37;1m
+  DVDX:                    [32;1mCan be installed[37;1m
+  BootMii:                 [32;1mCan be installed[37;1m
+A BootMii install [33;1mrequires a SD card[37;1m.
+
+Runtime files will be written, these are required to
+properly boot BootMii.
+
+Mounting SD card...
+Creating directory '/bootmii'...
+Writing '/bootmii/armboot.bin'...
+Writing '/bootmii/ppcboot.elf'...
+Writing config file...
+Skipped, file already exists
+
+Done.
+
+Testing usable NAND blocks...
+testing block 3
+NAND was not empty at 0x63000: 0x0
+block is not empty, backing up before testing
+writing test pattern
+verifying test pattern
+Erasing test pattern
+restoring buffer
+testing block 4
+NAND was not empty at 0x84000: 0x69
+block is not empty, backing up before testing
+writing test pattern
+verifying test pattern
+Erasing test pattern
+restoring buffer
+testing block 5
+writing test pattern
+verifying test pattern
+Erasing test pattern
+Erasing NAND block 3
+Writing NAND block 3
+Verifying NAND block 3 to block 0 of BootMii
+Erasing NAND block 4
+Writing NAND block 4
+Verifying NAND block 4 to block 1 of BootMii
+A BootMii install [33;1mrequires a SD card[37;1m.
+
+Runtime files will be written, these are required to
+properly boot BootMii.
+
+A BootMii install [33;1mrequires a SD card[37;1m.
+
+Runtime files will be written, these are required to
+properly boot BootMii.
+
+Mounting SD card...
+Creating directory '/bootmii'...
+Writing '/bootmii/armboot.bin'...
+Writing '/bootmii/ppcboot.elf'...
+Writing config file...
+Skipped, file already exists
+
+Done.
+
+A BootMii install [33;1mrequires a SD card[37;1m.
+
+Runtime files will be written, these are required to
+properly boot BootMii.
+
+Mounting SD card...
+Creating directory '/bootmii'...
+Writing '/bootmii/armboot.bin'...
+Writing '/bootmii/ppcboot.elf'...
+Writing config file...
+Skipped, file already exists
+
+Done.
