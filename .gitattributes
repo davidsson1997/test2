@@ -3,3 +3,5 @@
 *.resS filter=lfs diff=lfs merge=lfs -text
 C:UsersdavveDesktoptest1test218ec2d52be8f4524a97c25a2ed27838e filter=lfs diff=lfs merge=lfs -text
 18ec2d52be8f4524a97c25a2ed27838e filter=lfs diff=lfs merge=lfs -text
+testoop filter=lfs diff=lfs merge=lfs -text
+awdaw/s34s34/testoop filter=lfs diff=lfs merge=lfs -text
